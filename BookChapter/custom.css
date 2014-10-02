@@ -1,5 +1,17 @@
 header {
-    padding-bottom: 55px;
+    text-align: center;
+    line-height: 1;
+    padding-bottom: 15px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+hr {
+    width: 70%;
+    border-top: 1px;
 }
 
 body {
@@ -10,24 +22,50 @@ body {
     color: #333;
 }
 
+p {
+    padding: 3px 20px;
+}
+
+.author {
+    font-style: italic;
+}
+
 .container {
     max-width: 450px;
     line-height: 1.5;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 5px 10px;
-    padding: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 0 auto;
+    box-shadow: 1px 2px 3px rgba(0,0,0,1);
 }
 
-.padding {
+.contents {
+    font-size: 21px;
+}
+
+.chapter {
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+
+.left {
     padding-left: 20px;
     text-align: left;
 }
 
+.padding {
+    padding-left: 22px;
+}
+
 a:visited {
     color: #10bbac;
+    text-decoration: none;
 }
 
 a:hover {
     color: blue;
+    text-decoration: none;
 }
