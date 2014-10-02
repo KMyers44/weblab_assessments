@@ -1,0 +1,29 @@
+h1 {
+    font-family: Ariel;
+    text-align: center;
+    border-bottom: 2px groove white;
+}
+
+.one {
+    border-bottom: 1px solid lightgray
+}
+
+.two {
+    font-size: 12px;
+}
+
+.three {
+    font-style: italic;
+}
+
+.four {
+    margin: 1em;
+}
+
+.five {
+    color: #999;
+}
+
+.emphasis {
+    font-weight: bold;
+}

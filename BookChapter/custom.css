@@ -1,0 +1,33 @@
+header {
+    padding-bottom: 55px;
+}
+
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Arvo', serif;
+    font-size: 12px;
+    color: #333;
+}
+
+.container {
+    max-width: 450px;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px 10px;
+    padding: 100px;
+}
+
+.padding {
+    padding-left: 20px;
+    text-align: left;
+}
+
+a:visited {
+    color: #10bbac;
+}
+
+a:hover {
+    color: blue;
+}
